@@ -9,6 +9,7 @@ import com.studentManagement.demo.service.StudentService;
 
 import java.util.List;
 
+@CrossOrigin("http://localhost:3000/")
 @RestController
 @RequestMapping("/students")
 @RequiredArgsConstructor
